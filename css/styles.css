@@ -56,6 +56,14 @@ body {
 
 /* HEADER */
 
+
+.page-header-conteiner {
+   display: flex;
+   align-items: center;
+    border-bottom: 1px solid;
+    color: #ececec;
+}
+
 .logo {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
@@ -77,6 +85,23 @@ body {
 .item {
     text-decoration: none;
 
+}
+
+.list-nav .items:not(:last-child) {
+    margin-right: 50px;
+}
+.list-nav {
+    display: flex;
+    margin-left: 93px;
+}
+
+.list-contacts {
+    display: flex;
+    margin-left: 215px;
+}
+
+.list-contacts .items:not(:first-child) {
+    margin-left: 50px;
 }
 
 .list-nav,
@@ -211,6 +236,8 @@ address {
 
 .logo-end {
     color: var(--color-logo-footer);
+    display: inline-block;
+    margin-bottom: 20px;
 }
 
 .end-list-item {
