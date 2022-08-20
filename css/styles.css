@@ -12,7 +12,32 @@
     --color-btn: #F5F4FA;
     --color-boody: #ffffff;
 
+}
 
+
+h1,
+h2,
+h3,
+h4,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul,
+ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+.conteiner {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    outline: 2px solid tomato;
 }
 
 body {
@@ -21,6 +46,13 @@ body {
     color: var(--primari-text-color-teme-light);
 
 }
+
+.list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
 
 /* HEADER */
 
@@ -41,11 +73,6 @@ body {
     color: var(--color-logo-header);
 }
 
-.list {
-    list-style: none;
-
-
-}
 
 .item {
     text-decoration: none;
