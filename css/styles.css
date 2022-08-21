@@ -94,16 +94,13 @@ body {
 .list-contacts {
     display: flex;
     align-items: center;
-
 }
 
 .page-header-container,
 .list-nav,
 .list-contacts {
     column-gap: 50px;
-
 }
-
 
 .list-contacts {
     margin-left: auto;
